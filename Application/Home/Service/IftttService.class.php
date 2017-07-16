@@ -124,4 +124,12 @@ class IftttService
         }
         return $r;
     }
+
+    /**
+     * disable
+     */
+    static public function disableOldMissions(){
+        $to = strtotime('today');
+        M('Ifttt')->where(array('type' => self::TYPE_ONE_TIME,'time' => array('lt',$to)))->setField('status',self::STATUS_NOUSE);
+    }
 }
