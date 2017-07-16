@@ -31,7 +31,7 @@ return array(
 
     'COOKIE_PREFIX' => 'jss_ifttt_',
 
-    'ERROR_PAGE' => __ROOT__ . '/Index/error404',
+    'ERROR_PAGE' => __ROOT__ . '/Home/Index/error404',
 
     'DEFAULT_EVENT' => 'vps'
 );

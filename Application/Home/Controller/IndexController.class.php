@@ -21,4 +21,8 @@ class IndexController extends Controller {
         $result = IftttService::update($params['key'],$params['type'],$params['status'],$params['time'],$params['cron'],json_encode($content),$params['event']);
         $this->ajaxReturn(compact('result'));
     }
+
+    public function error404(){
+        $this->display();
+    }
 }
