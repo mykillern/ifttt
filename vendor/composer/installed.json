@@ -1,0 +1,43 @@
+[
+    {
+        "name": "jesusslim/iftttrigger",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jesusslim/iftttrigger.git",
+            "reference": "a2131652eca236d976db579074c13a778c1a1854"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/jesusslim/iftttrigger/a2131652eca236d976db579074c13a778c1a1854.zip",
+            "reference": "a2131652eca236d976db579074c13a778c1a1854",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "time": "2017-06-12T11:51:03+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Iftttrigger\\": "Iftttrigger/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "jesusslim",
+                "email": "755808379@qq.com"
+            }
+        ],
+        "description": "trigger the events of ifttt maker",
+        "keywords": [
+            "ifttt"
+        ]
+    }
+]

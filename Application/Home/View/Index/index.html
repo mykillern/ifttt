@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ifttt</title>
+    <style type="text/css">
+        .ift {
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Verdana;
+            font-weight: 200;
+            text-rendering: optimizeLegibility;
+            font-size: 15px;
+            color: #FFF;
+        }
+        td {
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body style="background: #CC0000">
+<div style="width: 50%;height:100px;"></div>
+<center>
+    <div class="ift" style="width: 80%">
+        <table >
+            <tr>
+                <td>
+                    key
+                </td>
+                <td>
+                    type
+                </td>
+                <td>
+                    status
+                </td>
+                <td>
+                    event
+                </td>
+                <td>
+                    content
+                </td>
+                <td>
+                    time
+                </td>
+                <td>
+                    cron
+                </td>
+            </tr>
+            <volist name="missions" id="m">
+                <tr>
+                <td>
+                    {$m.key}
+                </td>
+                <td>
+                    {$m.type_show}
+                </td>
+                <td>
+                    {$m.status_show}
+                </td>
+                <td>
+                    {$m.event}
+                </td>
+                <td>
+                    {$m.content}
+                </td>
+                <td>
+                    {$m.time_show}
+                </td>
+                <td>
+                    {$m.cron}
+                </td>
+                </tr>
+            </volist>
+        </table>
+    </div>
+</center>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8251fa1496e3a292ccc1ea0e7ad841d5",
+    "packages": [
+        {
+            "name": "jesusslim/iftttrigger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jesusslim/iftttrigger.git",
+                "reference": "a2131652eca236d976db579074c13a778c1a1854"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/jesusslim/iftttrigger/a2131652eca236d976db579074c13a778c1a1854.zip",
+                "reference": "a2131652eca236d976db579074c13a778c1a1854",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Iftttrigger\\": "Iftttrigger/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "jesusslim",
+                    "email": "755808379@qq.com"
+                }
+            ],
+            "description": "trigger the events of ifttt maker",
+            "keywords": [
+                "ifttt"
+            ],
+            "time": "2017-06-12 11:51:03"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "jesusslim/iftttrigger": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
